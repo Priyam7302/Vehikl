@@ -152,6 +152,28 @@ body {
     color: rgb(169, 161, 161);
     font-size: 25px;
 }
+
+/*img with text*/
+.img-with-text-main{
+    color: white;
+    display: flex;
+    gap:20px;
+    padding: 20px 0;
+
+}
+.img-with-text-main h1{
+    font-size: 40px;
+}
+.img-with-text-main p{
+    color: rgb(169, 161, 161);
+    font-size: 20px;
+}
+.img-with-text-main img {
+    width: 400px;
+    height: 300px;
+}
+
+
 /* section desc css */
 .desc-2 {
     align-items: center;
