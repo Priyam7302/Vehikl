@@ -76,6 +76,7 @@ body {
     justify-content: center;
 } */
 
+/* section banner css */
 .banner-img {
     position: relative;
     height: 400px;
@@ -106,8 +107,9 @@ body {
 }
 
 .banner h2 {
+    color: rgb(169, 161, 161);
     margin: 0;
-    font-size: 24px;
+    font-size: 34px;
     text-transform: capitalize;
 }
 
@@ -117,7 +119,7 @@ body {
 
 .banner h1 {
     margin: 10px 0;
-    font-size: 48px;
+    font-size: 58px;
     text-transform: capitalize;
 }
 
@@ -129,4 +131,155 @@ body {
     padding: 10px 25px;
     font-weight: bold;
     color: white;
+    margin-top: 10px;
+}
+
+/* section desc css */
+.desc-1{
+    align-items:center ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.desc-1 h1{
+    text-transform: capitalize;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+.desc-1 p {
+    color: rgb(169, 161, 161);
+    font-size: 25px;
+}
+/* section desc css */
+.desc-2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.desc-2 h1 {
+    text-transform: capitalize;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.desc-2 p {
+    color: rgb(169, 161, 161);
+    font-size: 25px;
+}
+ .icon-box {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 20px;
+    padding: 40px 0;
+ }
+
+ .box {
+     border: 1px solid rgb(31 41 55);
+     border-radius: 5px;
+     padding: 60px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .box img {
+     width: 40px;
+     height: 40px;
+ }
+
+/* section desc css */
+.desc-3 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.desc-3 h1 {
+    text-transform: capitalize;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.desc-3 p {
+    color: rgb(169, 161, 161);
+    font-size: 25px;
+}
+/* section desc css */
+.desc-4 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.desc-4 h1 {
+    text-transform: capitalize;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.desc-4 p {
+    color: rgb(169, 161, 161);
+    font-size: 25px;
+}
+/* section desc css */
+.desc-5 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.desc-5 h1 {
+    text-transform: capitalize;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.desc-5 p {
+    color: rgb(169, 161, 161);
+    font-size: 25px;
+}
+/* section desc css */
+.desc-6 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.desc-6 h1 {
+    text-transform: capitalize;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.desc-6 p {
+    color: rgb(169, 161, 161);
+    font-size: 25px;
+}
+.desc-6 button {
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: transparent;
+    background-color: rgb(221, 95, 19);
+    padding: 10px 25px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
 }
