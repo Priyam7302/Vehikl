@@ -1,14 +1,16 @@
-body{
+body {
     background-color: #111827;
     box-sizing: border-box;
 }
-.container{
+
+.container {
     box-sizing: border-box;
     background-color: #111827;
     max-width: 1024px;
-    margin:0 auto;
+    margin: 0 auto;
 }
-.navbar{
+
+.navbar {
     position: sticky;
     top: 0;
     box-sizing: border-box;
@@ -17,9 +19,11 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.nav-links ul{
+
+.nav-links ul {
     text-transform: uppercase;
 }
+
 .nav-links ul button {
     font-weight: 600;
     font-size: 13px;
@@ -30,34 +34,38 @@ body{
     text-transform: uppercase;
     border-radius: 5px;
 }
-.nav-links ul button:hover{
+
+.nav-links ul button:hover {
     border-color: rgb(221 95 19);
 }
-.nav-links li{
+
+.nav-links li {
     display: inline-block;
-    padding:0 8px;
+    padding: 0 8px;
 }
 
-.nav-logo img{
-    width:158px;
-    height:40px;
+.nav-logo img {
+    width: 158px;
+    height: 40px;
 }
-.nav-links a{
+
+.nav-links a {
     font-family: sans-serif;
     color: white;
     font-weight: 600;
     text-decoration: none;
 }
-.nav-links a:hover{
+
+.nav-links a:hover {
     color: rgb(221 95 19);
 }
 
 /* section css */
-.banner{
+/* .banner {
     display: flex;
     flex-direction: column;
-    color:white;
-    margin:0;
+    color: white;
+    margin: 0;
     width: 100%;
     height: 400px;
     background-image: url('/images/candid-4.webp');
@@ -66,22 +74,59 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+} */
+
+.banner-img {
+    position: relative;
+    height: 400px;
 }
-.banner h1{
+
+.banner-img img {
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-text {
+    position: absolute;
+    /* top: 50%; //learn later these 3 property
+       left: 50%;
+       transform: translate(-50%, -50%); */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+.banner h2 {
     margin: 0;
+    font-size: 24px;
     text-transform: capitalize;
 }
 
-.banner #center-head {
-    font-size: 66px;
-    width: 504px;
+.banner h2 span {
+    color: rgb(221, 95, 19);
 }
+
+.banner h1 {
+    margin: 10px 0;
+    font-size: 48px;
+    text-transform: capitalize;
+}
+
 .banner button {
     text-transform: uppercase;
     border-radius: 5px;
     border: transparent;
-    background-color: rgb(221 95 19);
+    background-color: rgb(221, 95, 19);
     padding: 10px 25px;
-    margin-top: 10px;
+    font-weight: bold;
+    color: white;
 }
-
