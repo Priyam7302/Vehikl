@@ -233,6 +233,40 @@ body {
     color: rgb(169, 161, 161);
     font-size: 25px;
 }
+/*section with card*/
+.card-main{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.card-main span{
+    color: rgb(169, 161, 161);
+}
+.card-main .card{
+    display: flex;
+    gap: 90px;
+}
+.card-main .card-1{
+    border: 1px solid rgb(31 41 55);
+    padding: 20px 100px;
+}
+.card-main .card-1 img{
+    height: 236px;
+}
+.card-main .card-2 img {
+    height: 236px;
+}
+.card-main .card-2 {
+    border: 1px solid rgb(31 41 55);
+    padding: 20px 80px;
+}
+.card-main .card-2 a{
+    color: rgb(221, 95, 19);
+}
+.card-main .card-1 a {
+    color: rgb(221, 95, 19);
+}
 /* section desc css */
 .desc-5 {
     align-items: center;
@@ -253,6 +287,30 @@ body {
     color: rgb(169, 161, 161);
     font-size: 25px;
 }
+/* card-para */
+.card-para-main{
+    align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        gap:10px;
+}
+.card-para{
+    padding:30px;
+    border: 1px solid rgb(31 41 55);
+}
+.card-para h1{
+    color:white;
+}
+.card-para p{
+    color: rgb(169, 161, 161);
+}
+.card-para .cp-img{
+    padding: 40px;
+    background-color:rgb(55, 74, 98);
+}
+
 /* section desc css */
 .desc-6 {
     align-items: center;
